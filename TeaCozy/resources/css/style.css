@@ -1,0 +1,147 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 1;
+
+
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav span{
+  display: inline-block;
+  justify-content: flex-end;
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+#logo {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+#logo img {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.container {
+display: flex;
+width: 1300px;
+flex-direction: column;
+margin: auto;
+}
+
+
+.mission {
+  display: flex;
+  background-image: url(/Users/quandragray/Desktop/projects/TeaCozy/resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.mission-statement {
+  display: block;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.feature-tea {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+.tea-month {
+  display: block;
+  height: 75px;
+  width: 100%;
+  margin: 65px 0;
+}
+
+
+.box img {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.box h4 {
+  padding-top: 10px;
+}
+
+.locations {
+  display: flex;
+  background-image: url(/Users/quandragray/Desktop/projects/TeaCozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+  display: block;
+
+}
+
+.locations h2{
+
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+
+.content {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.box_two {
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  width: 300px;
+  margin-right: 40px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+  .downtown {
+    margin-left: 110px;
+  }
+
+
+footer {
+  width: 1200px;
+  margin: auto;
+
+}
+.contact {
+  display: flex;
+  display: block;
+  height: 200px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  }
+
+footer h5 {
+  text-align: left;
+  padding-left: 20px;
+}
